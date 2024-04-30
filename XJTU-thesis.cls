@@ -737,6 +737,7 @@
     \DefTblrTemplate{contfoot-text}{normal}{表格待续}
     \SetTblrTemplate{contfoot-text}{normal}
 }
+\DeclareTblrTemplate{caption-sep}{default}{ }
 
 % 三线表样式
 \setlength{\heavyrulewidth}{1.5pt}
