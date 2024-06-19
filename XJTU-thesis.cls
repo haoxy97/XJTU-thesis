@@ -113,10 +113,6 @@
 \definecolor{backcolour}{rgb}{0.95,0.95,0.92}
 \definecolor{dimgray}{rgb}{0.9,0.9,0.9}
 \definecolor{columbiablue}{rgb}{0.61, 0.87, 1.0}
-%%% tikz %%%
-\RequirePackage{tikz}
-\RequirePackage{tikz-3dplot}
-\usetikzlibrary{shapes,arrows,positioning,calc}
 
 
 %%% chinese characters %%%
@@ -481,6 +477,10 @@
 \RequirePackage{graphicx}
 \graphicspath{{./Figures/},{./Materials/VI/}}
 
+%%% tikz %%%
+\RequirePackage{tikz}
+\RequirePackage{tikz-3dplot}
+\usetikzlibrary{shapes,arrows,positioning,calc}
 
 %%% algorithm %%%
 %%% 算法环境 %%%
